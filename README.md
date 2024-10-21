@@ -13,12 +13,28 @@ Use `cargo run` to start the dev environment.
 You can also install [cargo-watch](https://crates.io/crates/cargo-watch) to watche over your project's source for changes, and runs Cargo commands when they occur : `cargo-watch -x run`.
 
 #### Using Docker
+# Containers Project
+
+## Prérequis
+- Docker Desktop
+- Cloner le dépôt :
+  ```bash
+  git clone https://github.com/chrisn237/sdv-m1do-containers-project
+  ensuite:
+  cd containers_project
 
 ## Lancer le projet
+Construire et démarrer les conteneurs :
+docker-compose up --build
 
-1. Clonez le dépôt :
-   ```bash
-   git clone https://github.com/chrisn237/sdv-m1do-containers-project
+Accéder aux applications :
+API : http://localhost:8000
+Front-End : http://localhost:3000
+
+Images Docker
+
+API : chrisnnn/containers_project:api_dev
+Front-End : chrisnnn/containers_project:web_dev
 
 > TODO
 
