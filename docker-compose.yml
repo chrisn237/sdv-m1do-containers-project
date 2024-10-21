@@ -1,0 +1,11 @@
+
+services:
+  api:
+    build: ./sdv-api
+    ports:
+      - "8000:8000"
+
+  web:
+    build: ./sdv-web
+    ports:
+      - "3000:3000"

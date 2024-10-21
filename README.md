@@ -14,6 +14,12 @@ You can also install [cargo-watch](https://crates.io/crates/cargo-watch) to watc
 
 #### Using Docker
 
+## Lancer le projet
+
+1. Clonez le dépôt :
+   ```bash
+   git clone https://github.com/chrisn237/sdv-m1do-containers-project
+
 > TODO
 
 ### Web
